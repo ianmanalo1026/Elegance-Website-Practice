@@ -1,0 +1,71 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+/*************************/
+/* General Component */
+/*************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+/*************************/
+/* Reusable Component */
+/*************************/
+
+.container {
+  margin: 0 auto;
+  padding: 3.2rem 3.2rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:active,
+.btn:hover {
+  color: antiquewhite;
+}
+
+/************************/
+/* NAVBAR Section */
+/************************/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1.6rem;
+}
+
+.nav-sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.nav-btn-link {
+  color: white;
+  text-align: center;
+  transition: all 0.4s;
+  list-style: none;
+}
