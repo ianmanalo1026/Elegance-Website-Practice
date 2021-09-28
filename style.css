@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1;
   font-weight: 400;
 }
@@ -68,4 +68,22 @@ body {
   text-align: center;
   transition: all 0.4s;
   list-style: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.hero {
+  max-width: 130rem;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2.4rem 2rem;
+  gap: 20rem;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  max-width: 50%;
 }
